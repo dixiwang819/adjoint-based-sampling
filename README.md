@@ -54,24 +54,22 @@ adjoint-based-sampling/
 ├── README.md
 ├── requirements.txt
 ├── src/
-│   ├── models/
-│   ├── samplers/
-│   ├── losses/
+│   ├── particle/
+│   ├── sc_new/
+│   ├── sc_new_V_attetion/
 │   └── utils/
 ├── experiments/
-├── notebooks/
 ├── figures/
 └── results/
 ```
 
 Suggested organization:
 
-- `src/models/`: neural network velocity fields
-- `src/samplers/`: particle dynamics and sampling routines
-- `src/losses/`: terminal distribution losses and regularization terms
+- `src/particle/`: self-attention particle dynamics
+- `src/sc_new/`: soft-constraint mfc formulation
+- `src/sc_new_V_attention/`: soft-constraint mfc formulation with trainable matrix V only
 - `src/utils/`: plotting, data generation, and helper functions
 - `experiments/`: runnable training scripts
-- `notebooks/`: exploratory notebooks
 - `figures/`: generated visualizations
 - `results/`: saved experiment outputs
 
