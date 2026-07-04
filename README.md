@@ -1,6 +1,6 @@
 # adjoint-based sampling method
 
-This repository contains PyTorch experiments for **adjoint-based sampling methods** based on the work *Analyzing Training Dynamics of Transformers through Data-Driven Nonlocal Mean Field Control*. The goal is to study how adjoint information can be used to guide sampling dynamics and to provide clean, reproducible experiments on low-dimensional target distributions.
+This repository contains PyTorch experiments for **adjoint-based sampling methods** based on the work *Analyzing Training Dynamics of Transformers through Data-Driven Nonlocal Mean Field Control*. The goal is to study how the backward adjoint information can be used to guide sampling dynamics and to provide clean, reproducible experiments on low-dimensional target distributions.
 
 The project is motivated by the connection between generative modeling, controlled particle dynamics, and adjoint-based optimality conditions. In particular, it focuses on learning transport dynamics that move samples from a simple initial distribution toward a target distribution while analyzing the corresponding forward trajectories and backward adjoint variables.
 
